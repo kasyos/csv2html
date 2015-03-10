@@ -17,7 +17,6 @@ if (($handle = fopen("csv/". $_GET['filename'], "r")) !== FALSE) {
         }
        
         for ($c=0; $c < $num; $c++) {
-            //echo $data[$c] . "<br />\n";
             if(empty($data[$c])) {
                $value = "&nbsp;";
             }else{
